@@ -1,0 +1,12 @@
+{
+  "prompt_version": "prompt_v2",
+  "provider": "mock",
+  "metrics": {
+    "category_accuracy": 1.0,
+    "urgency_accuracy": 1.0,
+    "format_pass_rate": 1.0,
+    "tone_accuracy": 1.0,
+    "refusal_accuracy": 1.0,
+    "overall_score": 1.0
+  }
+}
