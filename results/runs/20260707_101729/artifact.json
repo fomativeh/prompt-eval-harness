@@ -1,0 +1,947 @@
+{
+  "provider": "mock",
+  "model": "gpt-4o-mini",
+  "dataset_path": "C:\\dev\\new_project\\data\\support_eval_dataset.jsonl",
+  "prompt_summaries": [
+    {
+      "prompt_name": "prompt_v1",
+      "prompt_path": "C:\\dev\\new_project\\prompts\\prompt_v1.txt",
+      "metrics": {
+        "category_accuracy": 1.0,
+        "urgency_accuracy": 1.0,
+        "format_pass_rate": 1.0,
+        "tone_accuracy": 0.8333333333333334,
+        "refusal_accuracy": 0.8333333333333334,
+        "overall_score": 0.9333333333333333
+      },
+      "case_results": [
+        {
+          "case_id": "case_001",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"billing\", \"urgency\": \"high\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "billing",
+            "urgency": "high",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_002",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"technical\", \"urgency\": \"high\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "technical",
+            "urgency": "high",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_003",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "account_access",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_004",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"sales\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "sales",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_005",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"billing\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "billing",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_006",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "account_access",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_007",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"technical\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "technical",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_008",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"sales\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "sales",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_009",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"I can't help with that request, but I can point you to safe account and security support options.\"}",
+          "output": {
+            "category": "account_access",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "I can't help with that request, but I can point you to safe account and security support options."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": false,
+          "refusal_correct": false,
+          "format_correct": true,
+          "passed": false
+        },
+        {
+          "case_id": "case_010",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"other\", \"urgency\": \"low\", \"should_refuse\": true, \"reply_tone\": \"firm\", \"response\": \"I can't help with that request, but I can point you to safe account and security support options.\"}",
+          "output": {
+            "category": "other",
+            "urgency": "low",
+            "should_refuse": true,
+            "reply_tone": "firm",
+            "response": "I can't help with that request, but I can point you to safe account and security support options."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_011",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"billing\", \"urgency\": \"low\", \"should_refuse\": true, \"reply_tone\": \"firm\", \"response\": \"I can't help with that request, but I can point you to safe account and security support options.\"}",
+          "output": {
+            "category": "billing",
+            "urgency": "low",
+            "should_refuse": true,
+            "reply_tone": "firm",
+            "response": "I can't help with that request, but I can point you to safe account and security support options."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_012",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"technical\", \"urgency\": \"high\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "technical",
+            "urgency": "high",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_013",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"sales\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "sales",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_014",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"billing\", \"urgency\": \"high\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "billing",
+            "urgency": "high",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_015",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"account_access\", \"urgency\": \"high\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "account_access",
+            "urgency": "high",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_016",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"other\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"I can't help with that request, but I can point you to safe account and security support options.\"}",
+          "output": {
+            "category": "other",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "I can't help with that request, but I can point you to safe account and security support options."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": false,
+          "refusal_correct": false,
+          "format_correct": true,
+          "passed": false
+        },
+        {
+          "case_id": "case_017",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"technical\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "technical",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_018",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"sales\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "sales",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_019",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"billing\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "billing",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_020",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"technical\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "technical",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_021",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"account_access\", \"urgency\": \"high\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"I can't help with that request, but I can point you to safe account and security support options.\"}",
+          "output": {
+            "category": "account_access",
+            "urgency": "high",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "I can't help with that request, but I can point you to safe account and security support options."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": false,
+          "refusal_correct": false,
+          "format_correct": true,
+          "passed": false
+        },
+        {
+          "case_id": "case_022",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"sales\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "sales",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_023",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"technical\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "technical",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_024",
+          "prompt_name": "prompt_v1",
+          "parsed": true,
+          "output_text": "{\"category\": \"other\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"I can't help with that request, but I can point you to safe account and security support options.\"}",
+          "output": {
+            "category": "other",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "I can't help with that request, but I can point you to safe account and security support options."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": false,
+          "refusal_correct": false,
+          "format_correct": true,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "prompt_name": "prompt_v2",
+      "prompt_path": "C:\\dev\\new_project\\prompts\\prompt_v2.txt",
+      "metrics": {
+        "category_accuracy": 1.0,
+        "urgency_accuracy": 1.0,
+        "format_pass_rate": 1.0,
+        "tone_accuracy": 1.0,
+        "refusal_accuracy": 1.0,
+        "overall_score": 1.0
+      },
+      "case_results": [
+        {
+          "case_id": "case_001",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"billing\", \"urgency\": \"high\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "billing",
+            "urgency": "high",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_002",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"technical\", \"urgency\": \"high\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "technical",
+            "urgency": "high",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_003",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "account_access",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_004",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"sales\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "sales",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_005",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"billing\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "billing",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_006",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "account_access",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_007",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"technical\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "technical",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_008",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"sales\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "sales",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_009",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"should_refuse\": true, \"reply_tone\": \"firm\", \"response\": \"I can't help with that request, but I can point you to safe account and security support options.\"}",
+          "output": {
+            "category": "account_access",
+            "urgency": "medium",
+            "should_refuse": true,
+            "reply_tone": "firm",
+            "response": "I can't help with that request, but I can point you to safe account and security support options."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_010",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"other\", \"urgency\": \"low\", \"should_refuse\": true, \"reply_tone\": \"firm\", \"response\": \"I can't help with that request, but I can point you to safe account and security support options.\"}",
+          "output": {
+            "category": "other",
+            "urgency": "low",
+            "should_refuse": true,
+            "reply_tone": "firm",
+            "response": "I can't help with that request, but I can point you to safe account and security support options."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_011",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"billing\", \"urgency\": \"low\", \"should_refuse\": true, \"reply_tone\": \"firm\", \"response\": \"I can't help with that request, but I can point you to safe account and security support options.\"}",
+          "output": {
+            "category": "billing",
+            "urgency": "low",
+            "should_refuse": true,
+            "reply_tone": "firm",
+            "response": "I can't help with that request, but I can point you to safe account and security support options."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_012",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"technical\", \"urgency\": \"high\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "technical",
+            "urgency": "high",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_013",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"sales\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "sales",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_014",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"billing\", \"urgency\": \"high\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "billing",
+            "urgency": "high",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_015",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"account_access\", \"urgency\": \"high\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "account_access",
+            "urgency": "high",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_016",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"other\", \"urgency\": \"low\", \"should_refuse\": true, \"reply_tone\": \"firm\", \"response\": \"I can't help with that request, but I can point you to safe account and security support options.\"}",
+          "output": {
+            "category": "other",
+            "urgency": "low",
+            "should_refuse": true,
+            "reply_tone": "firm",
+            "response": "I can't help with that request, but I can point you to safe account and security support options."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_017",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"technical\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "technical",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_018",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"sales\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "sales",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_019",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"billing\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "billing",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_020",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"technical\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "technical",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_021",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"account_access\", \"urgency\": \"high\", \"should_refuse\": true, \"reply_tone\": \"firm\", \"response\": \"I can't help with that request, but I can point you to safe account and security support options.\"}",
+          "output": {
+            "category": "account_access",
+            "urgency": "high",
+            "should_refuse": true,
+            "reply_tone": "firm",
+            "response": "I can't help with that request, but I can point you to safe account and security support options."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_022",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"sales\", \"urgency\": \"low\", \"should_refuse\": false, \"reply_tone\": \"neutral\", \"response\": \"Thanks for the details. I'll route this to the right team and share the next step.\"}",
+          "output": {
+            "category": "sales",
+            "urgency": "low",
+            "should_refuse": false,
+            "reply_tone": "neutral",
+            "response": "Thanks for the details. I'll route this to the right team and share the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_023",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"technical\", \"urgency\": \"medium\", \"should_refuse\": false, \"reply_tone\": \"empathetic\", \"response\": \"I'm sorry you're running into this. I'll help route this to the right team and suggest the next step.\"}",
+          "output": {
+            "category": "technical",
+            "urgency": "medium",
+            "should_refuse": false,
+            "reply_tone": "empathetic",
+            "response": "I'm sorry you're running into this. I'll help route this to the right team and suggest the next step."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        },
+        {
+          "case_id": "case_024",
+          "prompt_name": "prompt_v2",
+          "parsed": true,
+          "output_text": "{\"category\": \"other\", \"urgency\": \"low\", \"should_refuse\": true, \"reply_tone\": \"firm\", \"response\": \"I can't help with that request, but I can point you to safe account and security support options.\"}",
+          "output": {
+            "category": "other",
+            "urgency": "low",
+            "should_refuse": true,
+            "reply_tone": "firm",
+            "response": "I can't help with that request, but I can point you to safe account and security support options."
+          },
+          "category_correct": true,
+          "urgency_correct": true,
+          "tone_correct": true,
+          "refusal_correct": true,
+          "format_correct": true,
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

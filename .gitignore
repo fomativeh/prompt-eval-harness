@@ -29,4 +29,6 @@ Thumbs.db
 
 results/runs/*
 !results/runs/
+!results/runs/20260707_101729/
+!results/runs/20260707_101729/**
 !results/.gitkeep
