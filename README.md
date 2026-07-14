@@ -3,7 +3,8 @@
 Python harness for evaluating prompt variants against a labeled customer-support triage dataset.
 
 It stays focused on the evaluation loop itself: a labeled task, prompt comparison, deterministic scoring, saved artifacts, and a regression check. The repo is runnable with the included mock provider, and there is also an optional OpenAI-backed path for live model calls.
-
+![](docs/images/shot1.jpg)
+![](docs/images/shot2.jpg)
 ## Task
 
 Given a short customer message, the model must return JSON with:

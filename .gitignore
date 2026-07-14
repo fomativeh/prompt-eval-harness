@@ -22,7 +22,6 @@ build/
 dist/
 *.egg-info/
 
-.vscode/
 .idea/
 .DS_Store
 Thumbs.db
@@ -32,3 +31,7 @@ results/runs/*
 !results/runs/20260707_101729/
 !results/runs/20260707_101729/**
 !results/.gitkeep
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
